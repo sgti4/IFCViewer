@@ -209,8 +209,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
-SWIFT_CLASS("_TtC18IFCViewerFramework21AsynchronousOperation")
-@interface AsynchronousOperation : NSOperation
+SWIFT_CLASS("_TtC18IFCViewerFramework24IFCAsynchronousOperation")
+@interface IFCAsynchronousOperation : NSOperation
 @property (nonatomic, readonly, getter=isAsynchronous) BOOL asynchronous;
 @property (nonatomic, readonly, getter=isExecuting) BOOL executing;
 @property (nonatomic, readonly, getter=isFinished) BOOL finished;
@@ -219,8 +219,8 @@ SWIFT_CLASS("_TtC18IFCViewerFramework21AsynchronousOperation")
 @end
 
 
-SWIFT_CLASS("_TtC18IFCViewerFramework11DBOperation")
-@interface DBOperation : AsynchronousOperation
+SWIFT_CLASS("_TtC18IFCViewerFramework14IFCDBOperation")
+@interface IFCDBOperation : IFCAsynchronousOperation
 - (void)cancel;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");

@@ -11,7 +11,7 @@ import RealmSwift
 import SceneKit
 import Swift
 import UIKit
-@objc @_inheritsConvenienceInitializers public class AsynchronousOperation : Foundation.Operation {
+@objc @_inheritsConvenienceInitializers public class IFCAsynchronousOperation : Foundation.Operation {
   @objc override dynamic public var isAsynchronous: Swift.Bool {
     @objc get
   }
@@ -56,7 +56,7 @@ import UIKit
   @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
-@objc @_hasMissingDesignatedInitializers public class DBOperation : IFCViewerFramework.AsynchronousOperation {
+@objc @_hasMissingDesignatedInitializers public class IFCDBOperation : IFCViewerFramework.IFCAsynchronousOperation {
   @objc override dynamic public func cancel()
   @objc override dynamic public init()
   @objc deinit

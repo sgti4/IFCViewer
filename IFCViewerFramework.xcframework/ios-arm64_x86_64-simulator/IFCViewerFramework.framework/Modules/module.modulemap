@@ -1,0 +1,11 @@
+framework module IFCViewerFramework {
+  umbrella header "IFCViewerFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module IFCViewerFramework.Swift {
+    header "IFCViewerFramework-Swift.h"
+    requires objc
+}

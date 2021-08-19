@@ -1,0 +1,109 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IFCViewerFramework
+import Alamofire
+import CITreeView
+import CommonCrypto
+import Foundation
+import Gzip
+@_exported import IFCViewerFramework
+import RealmSwift
+import SceneKit
+import Swift
+import UIKit
+@objc @_inheritsConvenienceInitializers public class IFCAsynchronousOperation : Foundation.Operation {
+  @objc override dynamic public var isAsynchronous: Swift.Bool {
+    @objc get
+  }
+  @objc override dynamic public var isExecuting: Swift.Bool {
+    @objc get
+  }
+  @objc override dynamic public var isFinished: Swift.Bool {
+    @objc get
+  }
+  public func completeOperation()
+  @objc override dynamic public func start()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public class IFCSyncManager : ObjectiveC.NSObject {
+  public init(with accessToken: Swift.String, modelToken: Swift.String)
+  public func loadIFCProperties(completionHandler: @escaping (Swift.Error?) -> ())
+  public func loadEntities(completionHandler: @escaping (Swift.Error?) -> ())
+  public func loadAllTrees(completionHandler: @escaping (Swift.Error?) -> ())
+  public func loadProjectTree(with endOperation: Foundation.BlockOperation, completionHandler: @escaping (Swift.Error?) -> ())
+  public func loadEntitiesTree(with endOperation: Foundation.BlockOperation, completionHandler: @escaping (Swift.Error?) -> ())
+  public func loadTypesTree(with endOperation: Foundation.BlockOperation, completionHandler: @escaping (Swift.Error?) -> ())
+  public func loadLayersTree(with endOperation: Foundation.BlockOperation, completionHandler: @escaping (Swift.Error?) -> ())
+  public func loadElements(completionHandler: @escaping (Swift.Error?) -> ())
+  public func importIFCModel(at fileURL: Foundation.URL)
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc @_inheritsConvenienceInitializers open class IFCViewerViewController : UIKit.UIViewController, UIKit.UIGestureRecognizerDelegate {
+  public var modelID: Swift.String! {
+    get
+    set
+  }
+  @objc override dynamic open func viewDidLoad()
+  @objc override dynamic open func reloadInputViews()
+  @objc deinit
+  public func reloadData()
+  @objc override dynamic open func canPerformAction(_ action: ObjectiveC.Selector, withSender sender: Any?) -> Swift.Bool
+  @objc override dynamic open var canBecomeFirstResponder: Swift.Bool {
+    @objc get
+  }
+  @objc public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
+@objc @_hasMissingDesignatedInitializers public class IFCDBOperation : IFCViewerFramework.IFCAsynchronousOperation {
+  @objc override dynamic public func cancel()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class IFCDataBaseManager : ObjectiveC.NSObject {
+  public class func propertiesLoaded(for modelID: Swift.String) -> Swift.Bool
+  public class func manageDownloadStatus(for modelID: Swift.String, isDownloaded: Swift.Bool)
+  public class func updateDownloadStatus(for modelID: Swift.String, isDownloaded: Swift.Bool)
+  public class func createDownloadStatus(for modelID: Swift.String)
+  public class func deleteDBfile(for modelID: Swift.String)
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc @_inheritsConvenienceInitializers public class IFCGeneralConfiguration : ObjectiveC.NSObject {
+  @objc public static let shared: IFCViewerFramework.IFCGeneralConfiguration
+  @objc public var hjcoreURL: Foundation.URL!
+  @objc public var accessToken: Swift.String!
+  @objc public var modelToken: Swift.String! {
+    @objc get
+    @objc set
+  }
+  @objc public var tintColor: UIKit.UIColor
+  @objc public func configure(with hjcoreURL: Foundation.URL, accessToken: Swift.String)
+  @objc public func reset()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers open class IFCTreesTabBarController : UIKit.UITabBarController {
+  public var modelID: Swift.String! {
+    get
+    set
+  }
+  @objc override dynamic open func viewDidLoad()
+  public func reloadData()
+  @objc deinit
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
+@objc @_inheritsConvenienceInitializers public class IFCFileManager : ObjectiveC.NSObject {
+  public class func rootDirectory(for modelID: Swift.String) -> Foundation.URL
+  public class func createRootDirectory(for modelID: Swift.String) throws -> Foundation.URL
+  public class func daeFileURL(for modelID: Swift.String) -> Foundation.URL
+  public class func dbFileURL(for modelID: Swift.String) -> Foundation.URL
+  public class func daeFileExists(for modelID: Swift.String) -> Swift.Bool
+  public class func dbFileExists(for modelID: Swift.String) -> Swift.Bool
+  public class func deleteDBFile(for modelID: Swift.String) throws
+  @objc deinit
+  @objc override dynamic public init()
+}

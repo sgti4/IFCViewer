@@ -308,7 +308,7 @@ extension HJCoreElement : Swift.Decodable {
   }
   @objc public var tintColor: UIKit.UIColor
   @objc public var language: Swift.String
-  @objc public var rootDirectory: Foundation.URL!
+  @objc public var rootDirectory: Foundation.URL
   @objc public func configure(with hjcoreURL: Foundation.URL, accessToken: Swift.String)
   @objc public func configure(with hjcoreURL: Foundation.URL, accessToken: Swift.String, language: Swift.String, rootDirectory: Foundation.URL)
   @objc public func reset()

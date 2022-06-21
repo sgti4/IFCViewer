@@ -256,7 +256,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) IFCGeneralCo
 @property (nonatomic, copy) NSString * _Null_unspecified modelToken;
 @property (nonatomic, strong) UIColor * _Nonnull tintColor;
 @property (nonatomic, copy) NSString * _Nonnull language;
-@property (nonatomic, copy) NSURL * _Null_unspecified rootDirectory;
+@property (nonatomic, copy) NSURL * _Nonnull rootDirectory;
 - (void)configureWith:(NSURL * _Nonnull)hjcoreURL accessToken:(NSString * _Nonnull)accessToken;
 - (void)configureWith:(NSURL * _Nonnull)hjcoreURL accessToken:(NSString * _Nonnull)accessToken language:(NSString * _Nonnull)language rootDirectory:(NSURL * _Nonnull)rootDirectory;
 - (void)reset;

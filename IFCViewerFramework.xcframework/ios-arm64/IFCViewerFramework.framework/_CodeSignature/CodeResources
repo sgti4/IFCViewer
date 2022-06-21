@@ -10,15 +10,15 @@
 		</data>
 		<key>CIAttributesViewCell.nib</key>
 		<data>
-		fnX5XmWSeDFrZkyupy5loEEKZpM=
+		eQCMqapHJ+n8O3btQF8HucIlqoU=
 		</data>
 		<key>CITreeViewCell.nib</key>
 		<data>
-		SSDQbCzRPpwOJLOSIFw62xkdMkM=
+		QYffyvsbNp6vOpqb8XgcHuqQvdw=
 		</data>
 		<key>Headers/IFCViewerFramework-Swift.h</key>
 		<data>
-		KECEjsMVq36x75XUWEahGbJS/Ug=
+		AgUhKnLkxRnl2vpSH8jEM01p6o0=
 		</data>
 		<key>Headers/IFCViewerFramework.h</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/IFCViewerFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		FWE2QJ4Uphvr3dB9zSIuyEFEQ8E=
+		f5hPGctRBCLStS1Ze5ZfUxGw2/A=
 		</data>
 		<key>Modules/IFCViewerFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ohWXcrSPAidRsD3gCAIWQfQbrl4=
+		sPkvkJnMPfX4jSEgSt/oSaf3mDY=
 		</data>
 		<key>Modules/IFCViewerFramework.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/IFCViewerFramework.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		FWE2QJ4Uphvr3dB9zSIuyEFEQ8E=
+		f5hPGctRBCLStS1Ze5ZfUxGw2/A=
 		</data>
 		<key>Modules/IFCViewerFramework.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		ohWXcrSPAidRsD3gCAIWQfQbrl4=
+		sPkvkJnMPfX4jSEgSt/oSaf3mDY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -60,7 +60,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hz1MuDaqoFFq4xxpS4w7ht4In2A=
+			o3vqemtUBsNR1lYbY2blXhjyN5I=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -69,7 +69,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xdRcoIdNPA/vVNXajoC03a1FSFA=
+			k0J2Bytp/BADLpyYFWODHMTRLsY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -78,7 +78,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VuwuG3hg4C3K5gEfGHc+9bFuKD0=
+			ZUXhDNY+sdT6i9ZD/7gfDIHzXUI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -97,21 +97,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rWts0PdWJPvwl4aWlGh1DWO0u4IzR29+oU7ejQW54b0=
+			XGn+cPhQfscNI6haj1bv3rQ5Y5FwvUdtjhjITCQSnjE=
 			</data>
 		</dict>
 		<key>CITreeViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hzekLRtGBYhQaFqWW0ZljBafhC1cnNXpgKY8iVL96NQ=
+			QdwsKwOfIVoJyCKAVYOnYQsmQpr2F/qTNcXsN0feNkM=
 			</data>
 		</dict>
 		<key>Headers/IFCViewerFramework-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9IZeuNTRD+3muzXw+EFqDiL8XUApPkO9oJkgscKN/T4=
+			5xeimh2YarNgtmSjowOeiDESSshuvOx7CykQQP9NJq4=
 			</data>
 		</dict>
 		<key>Headers/IFCViewerFramework.h</key>
@@ -132,14 +132,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZzuYOdA/y1du7k6lScoS1hTikPQEyE0GC/GuLksR0qc=
+			Po7ID+tEqqMoc2QPcO77zSMOQVv/GcsV/RkWTqfa5rc=
 			</data>
 		</dict>
 		<key>Modules/IFCViewerFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3WV0EFFXn2sBLkEqEVK0YsPzIy+C6zF+0L1AmZxTGCs=
+			pYOc3Gl25KJUhqql0h2LPJDz68zOx+IkDpTCNRcP+SU=
 			</data>
 		</dict>
 		<key>Modules/IFCViewerFramework.swiftmodule/arm64.swiftdoc</key>
@@ -153,14 +153,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZzuYOdA/y1du7k6lScoS1hTikPQEyE0GC/GuLksR0qc=
+			Po7ID+tEqqMoc2QPcO77zSMOQVv/GcsV/RkWTqfa5rc=
 			</data>
 		</dict>
 		<key>Modules/IFCViewerFramework.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3WV0EFFXn2sBLkEqEVK0YsPzIy+C6zF+0L1AmZxTGCs=
+			pYOc3Gl25KJUhqql0h2LPJDz68zOx+IkDpTCNRcP+SU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -174,7 +174,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bjZxyos4tqUmwlw9tqgNeO4nLQqF8DlioUlYth53X4s=
+			VaEKcuBmtbFyQhbXxIItdthYEQonSf7ZiouPOnVCNbc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -183,7 +183,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pCE2/Mi0B59f4HJoGXXThyKYhUuJUYRSQFPgp16dKzM=
+			YxylmZK7IPD++W8DJ4+Fp4xtP2u8rKNn/DKiYfLlc9s=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -192,7 +192,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eLLGsG8Pyk85wpaU7KQS8vIeVow7cQYP7n8FqQ8u7S4=
+			W2G7CCp2hof5SL3RvoNRB3DRFj3X0W24i2reKhkLQbU=
 			</data>
 			<key>optional</key>
 			<true/>

@@ -7,6 +7,7 @@ import CommonCrypto
 import Foundation
 import Gzip
 @_exported import IFCViewerFramework
+import Log
 import RealmSwift
 import SceneKit
 import Swift
@@ -261,7 +262,6 @@ extension HJCoreElement : Swift.Decodable {
   public func loadTypesTree(with endOperation: Foundation.BlockOperation, completionHandler: @escaping (Swift.Error?) -> ())
   public func loadLayersTree(with endOperation: Foundation.BlockOperation, completionHandler: @escaping (Swift.Error?) -> ())
   public func loadElements(completionHandler: @escaping (Swift.Error?) -> ())
-  public func importIFCModel(at fileURL: Foundation.URL)
   @objc deinit
   @objc override dynamic public init()
 }
@@ -308,8 +308,9 @@ extension HJCoreElement : Swift.Decodable {
   }
   @objc public var tintColor: UIKit.UIColor
   @objc public var language: Swift.String
+  @objc public var rootDirectory: Foundation.URL!
   @objc public func configure(with hjcoreURL: Foundation.URL, accessToken: Swift.String)
-  @objc public func configure(with hjcoreURL: Foundation.URL, accessToken: Swift.String, language: Swift.String)
+  @objc public func configure(with hjcoreURL: Foundation.URL, accessToken: Swift.String, language: Swift.String, rootDirectory: Foundation.URL)
   @objc public func reset()
   @objc override dynamic public init()
   @objc deinit

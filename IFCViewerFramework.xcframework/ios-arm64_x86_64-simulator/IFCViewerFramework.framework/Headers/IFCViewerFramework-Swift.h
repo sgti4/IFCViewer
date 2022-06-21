@@ -258,8 +258,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) IFCGeneralCo
 @property (nonatomic, copy) NSString * _Null_unspecified modelToken;
 @property (nonatomic, strong) UIColor * _Nonnull tintColor;
 @property (nonatomic, copy) NSString * _Nonnull language;
+@property (nonatomic, copy) NSURL * _Null_unspecified rootDirectory;
 - (void)configureWith:(NSURL * _Nonnull)hjcoreURL accessToken:(NSString * _Nonnull)accessToken;
-- (void)configureWith:(NSURL * _Nonnull)hjcoreURL accessToken:(NSString * _Nonnull)accessToken language:(NSString * _Nonnull)language;
+- (void)configureWith:(NSURL * _Nonnull)hjcoreURL accessToken:(NSString * _Nonnull)accessToken language:(NSString * _Nonnull)language rootDirectory:(NSURL * _Nonnull)rootDirectory;
 - (void)reset;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -293,6 +294,7 @@ SWIFT_CLASS("_TtC18IFCViewerFramework23IFCViewerViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 
@@ -561,8 +563,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) IFCGeneralCo
 @property (nonatomic, copy) NSString * _Null_unspecified modelToken;
 @property (nonatomic, strong) UIColor * _Nonnull tintColor;
 @property (nonatomic, copy) NSString * _Nonnull language;
+@property (nonatomic, copy) NSURL * _Null_unspecified rootDirectory;
 - (void)configureWith:(NSURL * _Nonnull)hjcoreURL accessToken:(NSString * _Nonnull)accessToken;
-- (void)configureWith:(NSURL * _Nonnull)hjcoreURL accessToken:(NSString * _Nonnull)accessToken language:(NSString * _Nonnull)language;
+- (void)configureWith:(NSURL * _Nonnull)hjcoreURL accessToken:(NSString * _Nonnull)accessToken language:(NSString * _Nonnull)language rootDirectory:(NSURL * _Nonnull)rootDirectory;
 - (void)reset;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -596,6 +599,7 @@ SWIFT_CLASS("_TtC18IFCViewerFramework23IFCViewerViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 

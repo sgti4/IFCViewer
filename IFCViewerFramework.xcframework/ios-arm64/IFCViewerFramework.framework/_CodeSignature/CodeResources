@@ -6,19 +6,19 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		YjBbWBJIFGj5ic56HFgVFXqmsE8=
+		cVrMuEtfvlZVFXxLVJI++b5HCEc=
 		</data>
 		<key>CIAttributesViewCell.nib</key>
 		<data>
-		bF8iFiB4sAnSQNyvt77E171TFMw=
+		Wvm9zntRl4qXB62NWMQjI9OloWs=
 		</data>
 		<key>CITreeViewCell.nib</key>
 		<data>
-		ceYa+KqOQ4PV40FvGdxsAhUiOzY=
+		ax0pxkWkzLHWRYK0765NLE43bxM=
 		</data>
 		<key>Headers/IFCViewerFramework-Swift.h</key>
 		<data>
-		as3pmyLXV9/SIEe4swGfIpl0DWA=
+		99Uq/KByd+3crDQ3MIpEMYj2o8g=
 		</data>
 		<key>Headers/IFCViewerFramework.h</key>
 		<data>
@@ -26,35 +26,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5cSozfcJsHlp80MQclDdVRDzu5o=
+		tvIslDzzKArwpqM03CUcyfzJt/I=
+		</data>
+		<key>Modules/IFCViewerFramework.swiftmodule/arm64-apple-ios.abi.json</key>
+		<data>
+		M0m19giSMiRmjUVVbI8M7gIImAw=
+		</data>
+		<key>Modules/IFCViewerFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<data>
+		D8DbyrN0SfDF0JuT1/zXalFYLj4=
 		</data>
 		<key>Modules/IFCViewerFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		mvSkrX6jRx4mCxNZXftTIXss4GA=
+		6rrn3OrJx9kSvWbsjFEQoWhiSZg=
 		</data>
 		<key>Modules/IFCViewerFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		dz/iQaLACDFP9PTJxJtZe2/X18c=
+		D8DbyrN0SfDF0JuT1/zXalFYLj4=
 		</data>
 		<key>Modules/IFCViewerFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		OAUzo7RFSCrLwmDt48LM8qUrSDo=
-		</data>
-		<key>Modules/IFCViewerFramework.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		mvSkrX6jRx4mCxNZXftTIXss4GA=
-		</data>
-		<key>Modules/IFCViewerFramework.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		dz/iQaLACDFP9PTJxJtZe2/X18c=
-		</data>
-		<key>Modules/IFCViewerFramework.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		OAUzo7RFSCrLwmDt48LM8qUrSDo=
+		Hq3t1PlyYNpqHbxaTT1ZR4ZY7ZI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		ZLKX5V63D/gmqHlWEIv2CirsN2Q=
+		HttYvk80rHo5ALEEbH274DFjh/s=
 		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
@@ -90,28 +86,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NyQvmac2+Ybj5R1L0H+FwVRZ1YGTHs0JrMTwH1cHgj8=
+			+9+Bh68FOLNpHlTPtUOmvetiPcu06MAkgjjMA7ytkEc=
 			</data>
 		</dict>
 		<key>CIAttributesViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B3P8RDZ3NHjF9lrTdEdvcGfnrgKWt15v25Tghu/WXuc=
+			0FU6vA/IWuFds/ufubaMewfCGnbRWjdkcCd0MN3k10I=
 			</data>
 		</dict>
 		<key>CITreeViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9Y/YEZH2xbmfrUHnokzBSqoNUedFsyw0dTLKHN3Vrq0=
+			SZqkQAl8riFV7937ZamjwT64Vei379m43HWKfXPM37I=
 			</data>
 		</dict>
 		<key>Headers/IFCViewerFramework-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GQ9tIEzdCAk2bIkdkHPVXc7yUxyeTSO1/yOJKzK+LeQ=
+			YhGEmdeSiu3JY1YMJJm3td6p7SXS4Tct+ZCjL3ftSYg=
 			</data>
 		</dict>
 		<key>Headers/IFCViewerFramework.h</key>
@@ -121,53 +117,46 @@
 			N75o25f9NufxN5cC6UgJptFgLIA/AB+4VjEjHbFfYf8=
 			</data>
 		</dict>
+		<key>Modules/IFCViewerFramework.swiftmodule/arm64-apple-ios.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IMi3iyGjKSFB7jBR8xvfUWOD+UC/OIXS82uM7u1MSMY=
+			</data>
+		</dict>
+		<key>Modules/IFCViewerFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IaniYGp70bcqVCih6VAM8zd0Q2U/nCnmhKlwkff/L8M=
+			</data>
+		</dict>
 		<key>Modules/IFCViewerFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jFGsOW5aci6rCVFrQsdzVtfZwUkX1DCap41pGJ7aed0=
+			JMG4TUIDHUEUgDPeAkQ2UZF47OcxykiTe1Qu3ucGKIc=
 			</data>
 		</dict>
 		<key>Modules/IFCViewerFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uDuIU+7I/pFGONh8kbk1RWf79vk++VJ7hTZn21WrMzA=
+			IaniYGp70bcqVCih6VAM8zd0Q2U/nCnmhKlwkff/L8M=
 			</data>
 		</dict>
 		<key>Modules/IFCViewerFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			auhHdpWH+HcRJ36Wufqc2zr5E/8JPBLy3k1F8UFWUp0=
-			</data>
-		</dict>
-		<key>Modules/IFCViewerFramework.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jFGsOW5aci6rCVFrQsdzVtfZwUkX1DCap41pGJ7aed0=
-			</data>
-		</dict>
-		<key>Modules/IFCViewerFramework.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			uDuIU+7I/pFGONh8kbk1RWf79vk++VJ7hTZn21WrMzA=
-			</data>
-		</dict>
-		<key>Modules/IFCViewerFramework.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			auhHdpWH+HcRJ36Wufqc2zr5E/8JPBLy3k1F8UFWUp0=
+			2sFVgMXGLPzoc1OdC0vlc7SuZppRgHXNJrWcAl/9fS8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bDgXfuNB4NRB/pDv5yzmtb0ct/E+ZTYFjHsrmnIl7T4=
+			MzGTVFZ/SBseTM0zsk7Hqcfdt721PDRgc66kKuJn390=
 			</data>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>
